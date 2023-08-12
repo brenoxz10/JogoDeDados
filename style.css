@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width:100%;
+}
+
+.computador{
+    width: 60%;
+    height: 30%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid black;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.numbers{
+    text-align: center;
+    font-size: 2rem;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.sorteio{
+    margin-top: 30px;
+    padding: 24px 64px;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: all 200ms ease-in-out;
+}
+.sorteio:hover{
+    background-color: black;
+    color: white;
+}
+
+.numbers:last-child{
+    border: none
+}
+
+.pontuação{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
